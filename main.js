@@ -275,3 +275,5 @@ levelForm.addEventListener("submit", async function (e) {
 window.addEventListener("load", () => {
   showElement(overlay, 1500, "flex")
 })
+
+console.log("Hello World")
