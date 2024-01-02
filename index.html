@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JS -->
+    <script type="module" defer src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1><span class="yellow-string">JavaScript</span> Quiz</h1>
+        <span class="subtitle">Test your JS knowledge</span>
+      </div>
+      <div class="question-wrapp">
+        <!-- <div class="question-inner-wrapp">
+                    <p class="question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quas impedit fuga
+                        doloribus? Unde, quasi laboriosam iste assumenda aperiam harum?</p>
+                    <div class="answers-wrapp">
+                        <form action="" id="submit-form">
+                            <div class="answer">
+                                <input type="radio" id="1" name="answer" value="1"></input>
+                                <label for="1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cupiditate
+                                    officia earum, blanditiis dolorum neque et ratione nulla repellendus nihil.</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id="2" name="answer" value="0"></input>
+                                <label for="2">Second answer</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id='3' name="answer" value="0"></input>
+                                <label for="3">Third answer</label>
+                            </div>
+                            <div class="answer">
+                                <input type="radio" id='4' name="answer" value="0"></input>
+                                <label for="4">Fourth answer</label>
+                            </div>
+                            <button type="submit" id="submit-btn">Confirm</button>
+                        </form>
+                    </div>
+                </div> -->
+
+        <button id="submit-btn">Confirm</button>
+
+        <div class="correct">
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <span class="left-bar bar"></span>
+              <span class="right-bar bar"></span>
+            </div>
+          </div>
+        </div>
+        <div class="incorrect">
+          <div class="incorrect-circle">
+            <span class="x-bar x-left-bar"></span>
+            <span class="x-bar x-right-bar"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay">
+      <div class="modal">
+        <h4 class="modal-title">Choose Level</h4>
+        <form class="levels-form">
+          <div class="|">
+            <input type="radio" id="0" value="0" name="level" />
+            <label for="0">Easy</label>
+          </div>
+          <div class="">
+            <input type="radio" id="1" value="1" name="level" />
+            <label for="1">Medium</label>
+          </div>
+          <div class="">
+            <input type="radio" id="2" value="2" name="level" />
+            <label for="2">Hard</label>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
